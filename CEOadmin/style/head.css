@@ -1,0 +1,47 @@
+/* head */
+
+.head{
+    background-color: rgba(93, 162, 241, 0.925);
+    height: 100px;
+    
+}
+
+
+.head text{
+    margin-left: 30px;
+    
+    font-size: 30px;
+    background-color: rgba(93, 162, 241, 0.925);
+    border: none;
+    
+}
+
+/* login button */
+#login {
+    background-color: rgb(70, 78, 83); 
+    border: none;
+    
+    padding: 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 1px;
+    cursor: pointer;
+    
+}
+#login {border-radius: 12px;
+     
+}
+#login {
+    margin-left: 1010px;
+   margin-top: 30px;
+}
+
+#login:hover {
+    background-color: rgba(243, 31, 31, 0.877);
+    
+}
+#login a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,20 @@
+/* sign up button */
+.button2 {
+    background-color: rgb(8, 132, 214); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 1px;
+    cursor: pointer;
+    float:right;
+    margin-right: 10px;
+}
+.button2 {border-radius: 12px;   
+}
+/* .signup{
+    margin-left: 1300px;
+} */

@@ -1,0 +1,32 @@
+/* <!-- footer --> */
+.clearfix{overflow: auto}
+
+footer{
+    background-color:red;
+    margin-top: 5px;
+}
+#links{
+    margin-top: 45px;
+    margin-right: 15px; 
+    color: #ffffff;
+    float: right;
+}
+
+#links img{
+    width: 60px;
+    height: 30px;
+}
+
+#inform {
+    color: #ffffff;
+    overflow: hidden;
+    margin-left: 10px;
+}
+#inform a {
+    color: #da4343;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#inform p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

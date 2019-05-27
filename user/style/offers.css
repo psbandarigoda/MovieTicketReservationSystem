@@ -1,0 +1,81 @@
+#maincontainer{
+	margin-bottom:20%;
+}
+
+.of{
+	font-style:oblique;
+	color:#4b0000;
+    font-family: cursive;
+    font-size: larger;
+    box-shadow:0 4px 10px 0;
+}
+.col{
+	float:left;
+	width:30%;
+	padding:10px;
+	height:50px;
+	margin-left:10px;
+}
+.col img{
+	float:left;
+    width: 75%;
+    box-shadow:0 4px 10px 0;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:40%;
+}
+.buy1{
+	background-color:#ff4848;
+	display: inline-block;
+	box-shadow:0 4px 10px 0;
+	margin:0px 0px 2px 159px;
+	padding:10px 55px 10px 46px;
+	width:50%;
+}
+.tick1{
+	background-color:#b70000;
+	display: inline-block;
+	box-shadow:0 4px 10px 0;
+	margin:0px 10px 30px 158px;
+	padding:10px 85px 10px 80px;
+	width:75%;
+}
+
+
+
+.colm{
+	float:right;
+	width:30%;
+	padding:10px;
+	height:50px;
+	margin-right:50px;
+}
+
+.colm img{
+	float:right;
+    width: 75%;
+	height:330%;
+    box-shadow:0 4px 10px 0;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-right:25%;
+
+}
+
+.buy2{
+	background-color:#ff4848;
+	padding: 5px;
+	display: inline-block;
+	box-shadow:0 4px 10px 0;
+	margin:0px 0px 2px 0px;
+	padding:10px 45px 10px 45px;
+}
+.tick2{
+	background-color:#b70000;
+	padding: 5px;
+	display: inline-block;
+	box-shadow:0 4px 10px 0;
+	margin:0px 10px 30px 0px;
+	padding:10px 120px 10px 116px;
+	
+}

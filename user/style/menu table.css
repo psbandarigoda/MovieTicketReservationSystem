@@ -1,0 +1,67 @@
+/* <!-- table --> */
+table.blueTable #offer {
+  background: rgb(207, 112, 49);
+}
+table.blueTable {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(184, 172, 164);
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 3px 3px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+
+td.buytd{
+  width: 100px;
+}
+.blueTable tr{
+  height: 40px;
+}
+#tfoot tr{
+  height: 20px;
+}
+.tablecenter{
+  margin-top: 200px;
+  position: absolute;
+  text-align: center;
+  margin-left: 140px;
+  width: 80%;
+ 
+}

@@ -1,0 +1,16 @@
+#myBtn {
+  background-color:#A9A9A9;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align:center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+#myBtn:hover {
+  background-color: #cococo;
+  color: white;
+}

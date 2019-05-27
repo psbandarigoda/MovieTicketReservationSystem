@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- menu bar -->
+	<link rel="stylesheet" type="text/css" href="style/menu bar.css">
+
+	<!-- read more -->
+	<link rel="stylesheet" type="text/css" href="style/readmore.css">
+
+	<!-- reset and send -->
+	<link rel="stylesheet" type="text/css" href="style/resetAndsend.css">
+
+	<!-- form -->
+	<link rel="stylesheet" type="text/css" href="style/form.css">
+
+	<!-- footer -->
+	<link rel="stylesheet" type="text/css" href="style/footer.css">
+
+	<!--slide header-->
+	<link rel="stylesheet" type="text/css" href="style/slideheader.css">
+
+	<!-- Log Out -->
+	<link rel="stylesheet" type="text/css" href="style/button.css">
+
+	<!-- background img -->
+
+
+	<!-- User Icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style/user icon.css">
+
+	<style>
+		body {
+			background-color: rgb(105, 102, 102);
+			overflow-x: hidden;
+		}
+
+		body {
+			background-color: white;
+		}
+
+		#more {
+			display: none;
+		}
+		        /* slide images */
+				.mySlides img{
+        width: 100%;
+        height: 615px;
+    }
+	.sign{
+    margin-left: 350px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+	</style>
+
+</head>
+
+<body>
+
+	<!-- manu bar -->
+
+	<ul id="menu">
+		<li id="menubar">
+			<a href="#">&nbsp; Imagine Movies</a>
+		</li>
+
+		<li id="menubar">
+			<a href="Home.php">HOME</a>
+		</li>
+
+		<li id="menubar">
+			<a href="Movies.php">MOVIES & SHOW TIMES</a>
+		</li>
+
+		<li id="menubar">
+			<a href="Trailers.html">TRAILERS</a>
+		</li>
+
+		<li id="menubar">
+			<a href="Rates.html">RATINGS</a>
+		</li>
+
+		<li id="menubar">
+			<a href="Offers.html">OFFERS</a>
+		</li>
+
+		<li id="menubar">
+			<a class="active">CONTACT US</a>
+		</li>
+
+		<button class="button sign">
+			<a href="Welcome.html">Log Out</a>
+		</button>
+
+		<i class="fa fa-user-circle" style="font-size:34px; color:blanchedalmond"></i>
+	</ul>
+
+
+	<!-- Slide Header -->
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="images/home/film1.1.jpg">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="images/home/film3.1.jpg">
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext"></div>
+			<img src="images/home/film3.2.png">
+		</div>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+	</div>
+	<br/>
+
+	<!--heading-->
+	<h1 id="contact">Contact Imagine Films & Theaters</h1>
+
+	<!--description text-->
+	<p class="discp">Imagine Films and Theaters offices are situated at the Savoy building Wellawatta-Colombo 6.Should you wish to contact us
+		for any matter you can reach us on the followingaddress or contact numbers listed below
+		<span id="dots">.</span>
+		<span id="more">
+			<br>
+			<br>If you wish to contact us via email please fill in the following form and we will get in touch with you at the earliest</span>
+	</p>
+	<button onclick="myFunction()" id="myBtn">Read more</button>
+	<br>
+
+	<!--form-->
+	<div class="cont">
+		<form name="contactUs" method="post" action="form.php" id="contact">
+
+			<label for="name">Name:</label>
+			<br>
+			<br>
+			<input type="text" id="cusName" name="name" required="required">
+			<br>
+			<br>
+
+			<label for="tpp">Phone Number:</label>
+			<br>
+			<br>
+			<input type="tel" name="usrtel" required="required">
+			<br>
+			<br>
+
+			<label for="mail">E mail Address:</label>
+			<br>
+			<br>
+			<input type="email" name="email" required="required">
+			<br>
+			<br>
+
+			<label for="message">Message</label>
+			<br>
+			<br>
+			<input type="text" maxlength="150">
+			<text area rows="4" cols="50" name="comment" form="contact">
+				<br>
+				<br>
+
+				<img id="robot" src="images/robot/robott.gif" alt="Flowers in Chania" align="center">
+
+				<button class="btn reset">Reset</button>
+				<button class="btn send">Send</button>
+
+	</div>
+
+	</form>
+	<br>
+
+	<br/>
+	<!--fotter -->
+	<footer>
+		<div id="foot">
+
+			<div id="links">
+				<a id="footmenu" href="">Home</a> |
+				<a href="">Privacy Policy</a> |
+				<a href="">Terms of Use</a> |
+				<a href="">Disclaimer</a> |
+				<a href="">About Us</a>
+				<br/>
+				<br/>
+				<a id="footmenu" href="">Login</a> |
+				<a href="">Register</a> |
+				<a href="">Advertise</a> |
+				<a href="">Careers</a> |
+				<a href="">Contact Us</a>
+				<br/>
+				<br/>
+				<img id="norton" src="images/norton.png">
+			</div>
+
+			<div id="inform">
+				<img id="footlogo" src="images/ss.png">
+				<br/>
+				<p>© 2018 Imagine Movies. All Rights Reserved. Site by
+					<a href="#">Archmage</a>
+					<br/>
+					<br/> Copyright © 1995-2018 eBay Inc. All Rights Reserved. Accessibility, User Agreement, Privacy, Cookies and AdChoice
+					<br/> Norton Secured - powered by Verisign</p>
+
+			</div>
+		</div>
+	</footer>
+
+
+
+	<!-- slide header js -->
+	<script src="JS/slideheader.js"></script>
+
+	<!-- read more javascript -->
+	<script src="JS/readMore.js"></script>
+</body>
+
+</html>

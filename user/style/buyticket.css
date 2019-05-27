@@ -1,0 +1,66 @@
+.clearfix{overflow: auto;}
+div.body{
+
+}
+div.one{
+	width: 100%;
+}
+div.one h1{
+	text-align: center;
+}
+div.text{
+	width: 20%;
+	float: left;
+	padding:70px 0px 70px 0px;
+	margin: 30px 70px 70px 25%;
+	text-align: center;
+	border: 1px solid #aaa;
+	
+}
+div.review{
+	margin-top:30px;
+	background-color: red;
+	width: 27%;
+	text-align-last: left;
+	border-radius: 15px;
+	padding: 20px 0px 20px 70px;
+
+}
+label{
+	width: 30%;
+	float: left;
+	color: white;
+	font-size: 20px;
+	margin: 0;
+}
+
+p{
+	width: 500px;
+}
+div.boder{
+	border-bottom:1px solid #aaa ;
+	margin: 20px 0 20px 0;
+}
+
+div.category{
+	margin-left: 25%;
+
+}
+table.list {
+	color: white;
+	width: 65%;
+}
+table.list th{
+	background: #aaa;
+	text-align: left;
+	color: black;
+	font-family: Verdana, Geneva, sans-serif;
+}
+table.list td{
+	font-size: 25px;
+
+}
+table.list th,table.list td{
+	padding: 10px;
+	border-bottom:1px solid #aaa ;
+}

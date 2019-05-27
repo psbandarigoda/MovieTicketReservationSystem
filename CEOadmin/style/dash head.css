@@ -1,0 +1,49 @@
+/* head */
+
+.head{
+    background-color: rgb(43, 174, 226);
+    height: 100px;
+    
+}
+
+
+.head text{
+    margin-left: 30px;
+    font-size: 30px;
+    background-color: rgb(43, 174, 226);
+    border: none;
+    
+}
+
+#dash{
+    margin-left: 360px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* login button */
+#update {
+    background-color: rgb(70, 78, 83); 
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 1px;
+    cursor: pointer;
+    
+}
+#update {border-radius: 12px;
+     
+}
+#update {
+    margin-left: 510px;
+    margin-top: 30px;
+}
+
+#update:hover {
+    background-color: #4CAF50;
+}

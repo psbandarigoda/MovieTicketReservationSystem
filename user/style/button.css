@@ -1,0 +1,23 @@
+/* <!-- all button --> */
+.button,sign a{
+    background-color: rgb(8, 132, 214);
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px 2px;
+    cursor: pointer;
+    width:100px;
+}
+.sign {border-radius: 12px;   
+}
+.sign{
+    margin-left: 210px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

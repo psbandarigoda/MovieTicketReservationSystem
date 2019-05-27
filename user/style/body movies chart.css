@@ -1,0 +1,68 @@
+/* body move chart  now and upcoming */
+        #nowshowing {
+            margin-left: 20px;
+            font-size: 22px;
+            margin-top: 5px;
+            font-weight: 600;
+        }
+
+        #upcomming{
+            margin-left: 20px;
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+
+        html {
+            box-sizing: border-box;
+
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 300px;
+            margin-bottom: 20px;
+            padding: 0 8px;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: grey;
+        }
+
+        .row {
+            margin-left: 10px;
+            /* height: 300px; */
+        }
+
+        .card img {
+            height: 160px;
+        }
